@@ -4,3 +4,7 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  build:
+    name: Lukasz post welcome comment build
+    runs-on: ubuntu-latest
